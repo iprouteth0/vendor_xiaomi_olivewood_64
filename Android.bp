@@ -251,13 +251,6 @@ dex_import {
 }
 
 dex_import {
-	name: "com.fingerprints.extension",
-	owner: "xiaomi",
-	jars: ["proprietary/vendor/framework/com.fingerprints.extension.jar"],
-	soc_specific: true,
-}
-
-dex_import {
 	name: "QtiTelephonyServicelibrary",
 	owner: "xiaomi",
 	jars: ["proprietary/product/framework/QtiTelephonyServicelibrary.jar"],
