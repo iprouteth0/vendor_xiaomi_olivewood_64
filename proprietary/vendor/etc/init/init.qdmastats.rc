@@ -22,4 +22,4 @@ on property:vendor.qti.qdma.oper.mode=2
 service vendor.qdmastatsd /system/vendor/bin/qdmastatsd
     class late_start
     user system
-    group readproc system net_bw_stats radio vendor_rfs_shared sdcard_rw media_rw sdcard_r
+    group readproc system net_bw_stats radio sdcard_rw media_rw sdcard_r
